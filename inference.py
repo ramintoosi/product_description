@@ -39,4 +39,8 @@ def inference_on_image(image_path: str):
 
 
 if __name__ == "__main__":
-    inference_on_image("image.jpg")
+    import argparse
+    parser = argparse.ArgumentParser(description="Run inference on an image.")
+    parser.add_argument("image_path", type=str, help="Path to the image file.")
+    args = parser.parse_args()
+    inference_on_image(args.image_path)
