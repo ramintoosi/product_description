@@ -2,6 +2,9 @@
 
 This project fine-tunes **LLaMA 3.2-11B-Vision** using **LoRA (Low-Rank Adaptation)** to generate **concise, SEO-friendly product descriptions** for kid's clothing images.  
 
+## Blog post
+[Read the blog post for more details.](https://ramintoosi.ir/posts/2025/02/blog-post-1/)
+
 ---
 
 
